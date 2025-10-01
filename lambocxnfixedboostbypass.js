@@ -44,14 +44,14 @@ const websocketebaglan = () => {
       if (existing && existing !== d.vanity_url_code) {
         vanity = existing;
         lamboreq(existing);
-        console.log(`Vanity changed: ${vanity}`);
+        console.log(`response: ${vanity}`);
       }
     }
     if (t === "READY") {
       d.guilds.forEach((g) => {
         if (g.vanity_url_code) guilds[g.id] = g.vanity_url_code;
       });
-      console.log("Guilds loaded:", Object.keys(guilds).length);
+      console.log("sunucular yuklendi:", Object.keys(guilds).length);
     }
     if (op === 10) {
       ws.send(
