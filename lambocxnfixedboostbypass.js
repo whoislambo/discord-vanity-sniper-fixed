@@ -40,11 +40,22 @@ const websocketebaglan = () => {
     const message = JSON.parse(data.toString());
     const { op, t, d } = message;
     if (t === "GUILD_UPDATE") {
-      const existing = guilds[d.guild_id];
-      if (existing && existing !== d.vanity_url_code) {
+      const guildId = d.id; // ✅ DOĞRU - d.id kullan
+      const newVanity = d.vanity_url_code;
+      const existing = guilds[guildId];
+      
+      // Vanity düştü mü kontrol et
+      if (existing && !newVanity) {
         vanity = existing;
         lamboreq(existing);
-        console.log(`response: ${vanity}`);
+        console.log(`vanity düştü: ${vanity}`);
+      }
+      
+      // Map'i güncelle
+      if (newVanity) {
+        guilds[guildId] = newVanity;
+      } else {
+        delete guilds[guildId];
       }
     }
     if (t === "READY") {
