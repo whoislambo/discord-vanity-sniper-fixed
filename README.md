@@ -1,1 +1,1 @@
-fix yedi bundan sonrada benim open source kodlarıımı geliştirip boost banından çekeyinde göreyim newgenler
+fix yemesine rağmen bypassed :) iyi kullanımlar
