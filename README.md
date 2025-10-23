@@ -1,3 +1,1 @@
-# discord-vanity-sniper-fixed
-güzel evlatlarım 1 kişinin ticket açıp kod atıp bunu fixleyin demesi ile olmuyor bu fix mevzuları. Hadi yenileri anlamaktayım ama siz kardeşlerim bunca zaman bu işin içinde olan insanlar siz, nasıl inanmayı becerdiniz arkadaşlar hiç bir kod fix yemedi sadece bir kaç oynama yapmanız gerekiyor onuda akşam size method olarak paylaşıcam. Bu evlatlarıma yolladığım kod'un methodları ise public ve çoğu insan kodu bu şekilde çok slow ve tükürüp fırlatmalık bir kod kocaman bir fixi getiren insanlar'In yaptığı kodlar aynen böyle
-bu yüzden inanmayın diyorum size boost banından rahatlıkla çeker denendi ve onaylandı hadı bi ihtimal olmadı diyelim o sizin bilgisizliğiniz ve ellerinizi iyi kullanamayışınız olur evlatlarım. akşam method geliyor.
+fix yedi bundan sonrada benim open source kodlarıımı geliştirip boost banından çekeyinde göreyim newgenler
